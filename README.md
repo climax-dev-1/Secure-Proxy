@@ -12,27 +12,27 @@ endpoint restrictions, placeholders, flexible configuration
 </p>
 
 <div align="center">
-  <a href="https://github.com/codeshelldev/secured-signal-api/releases">
+  <a href="https://github.com/climax-dev-1/secured-signal-api/releases">
     <img 
-		src="https://img.shields.io/github/v/release/codeshelldev/secured-signal-api?sort=semver&logo=github&label=Release" 
+		src="https://img.shields.io/github/v/release/climax-dev-1/secured-signal-api?sort=semver&logo=github&label=Release" 
 		alt="GitHub release"
 	>
   </a>
-  <a href="https://github.com/codeshelldev/secured-signal-api/stargazers">
+  <a href="https://github.com/climax-dev-1/secured-signal-api/stargazers">
     <img 
-		src="https://img.shields.io/github/stars/codeshelldev/secured-signal-api?style=flat&logo=github&label=Stars" 
+		src="https://img.shields.io/github/stars/climax-dev-1/secured-signal-api?style=flat&logo=github&label=Stars" 
 		alt="GitHub stars"
 	>
   </a>
-  <a href="https://github.com/codeshelldev/secured-signal-api/pkgs/container/secured-signal-api">
+  <a href="https://github.com/climax-dev-1/secured-signal-api/pkgs/container/secured-signal-api">
     <img 
-		src="https://ghcr-badge.egpl.dev/codeshelldev/secured-signal-api/size?color=%2344cc11&tag=latest&label=Image+Size&trim="
+		src="https://ghcr-badge.egpl.dev/climax-dev-1/secured-signal-api/size?color=%2344cc11&tag=latest&label=Image+Size&trim="
 		alt="Docker image size"
 	>
   </a>
-  <a href="https://github.com/codeshelldev/secured-signal-api/pkgs/container/secured-signal-api">
+  <a href="https://github.com/climax-dev-1/secured-signal-api/pkgs/container/secured-signal-api">
     <img 
-		src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fghcr-badge.elias.eu.org%2Fapi%2Fcodeshelldev%2Fsecured-signal-api%2Fsecured-signal-api&query=downloadCount&label=Downloads&color=2344cc11"
+		src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fghcr-badge.elias.eu.org%2Fapi%2Fclimax-dev-1%2Fsecured-signal-api%2Fsecured-signal-api&query=downloadCount&label=Downloads&color=2344cc11"
 		alt="Docker image Pulls"
 	>
   </a>
@@ -46,7 +46,7 @@ endpoint restrictions, placeholders, flexible configuration
 
 ## Contents
 
-Check out the official [Documentation](https://codeshelldev.github.io/secured-signal-api) for up-to-date Instructions and additional Content.
+Check out the official [Documentation](https://climax-dev-1.github.io/secured-signal-api) for up-to-date Instructions and additional Content.
 
 - [Getting Started](#getting-started)
 - [Setup](#setup)
@@ -57,7 +57,7 @@ Check out the official [Documentation](https://codeshelldev.github.io/secured-si
   - [Field Policies](#field-policies)
   - [Field Mappings](#field-mappings)
   - [Message Templates](#message-templates)
-- [Integrations](https://codeshelldev.github.io/secured-signal-api/docs/integrations/compatibility)
+- [Integrations](https://climax-dev-1.github.io/secured-signal-api/docs/integrations/compatibility)
 - [Contributing](#contributing)
 - [Support](#support)
 - [Help](#help)
@@ -85,7 +85,7 @@ services:
           - signal-api
 
   secured-signal:
-    image: ghcr.io/codeshelldev/secured-signal-api:latest
+    image: ghcr.io/climax-dev-1/secured-signal-api:latest
     container_name: secured-signal
     environment:
       API__URL: http://signal-api:8080
@@ -183,7 +183,7 @@ In some cases you may not be able to access / modify the Request Body, in that c
 In order to differentiate Injection Queries and _regular_ Queries
 you have to add `@` in front of any KeyValue Pair assignment.
 
-Supported types include **strings**, **ints**, **arrays** and **json dictionaries**. See [Formatting](https://codeshelldev.github.io/secured-signal-api/docs/usage/formatting).
+Supported types include **strings**, **ints**, **arrays** and **json dictionaries**. See [Formatting](https://climax-dev-1.github.io/secured-signal-api/docs/usage/formatting).
 
 ## Configuration
 
@@ -446,7 +446,7 @@ Use `@` for mapping to Body Keys and `.` for mapping to Variables.
 ## Contributing
 
 Found a bug? Want to change or add something?
-Feel free to open up an [Issue](https://github.com/codeshelldev/secured-signal-api/issues) or create a [Pull Request](https://github.com/codeshelldev/secured-signal-api/pulls)!
+Feel free to open up an [Issue](https://github.com/climax-dev-1/secured-signal-api/issues) or create a [Pull Request](https://github.com/climax-dev-1/secured-signal-api/pulls)!
 
 ## Support
 
@@ -457,7 +457,7 @@ Has this Repo been helpful 👍️ to you? Then consider ⭐️'ing this Project
 ## Help
 
 **Are you having Problems setting up Secured Signal API?**<br>
-No worries check out the [Discussions](https://github.com/codeshelldev/secured-signal-api/discussions) Tab and ask for help.
+No worries check out the [Discussions](https://github.com/climax-dev-1/secured-signal-api/discussions) Tab and ask for help.
 
 **We are all Volunteers**, so please be friendly and patient.
 
@@ -467,6 +467,6 @@ No worries check out the [Discussions](https://github.com/codeshelldev/secured-s
 
 ## Legal
 
-Logo designed by [@CodeShellDev](https://github.com/codeshelldev), All Rights Reserved.
+Logo designed by [@climax-dev-1](https://github.com/climax-dev-1), All Rights Reserved.
 
 This Project is not affiliated with the Signal Foundation.
