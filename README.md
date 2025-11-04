@@ -1,4 +1,4 @@
-<img align="center" width="1048" height="512" alt="Secure Proxy for Signal REST API" src="https://github.com/CodeShellDev/secured-signal-api/raw/refs/heads/main/logo/banner.png" />
+<img align="center" width="1048" height="512" alt="Secure Proxy for Signal REST API" src="https://github.com/climax-dev-1/secured-signal-api/raw/refs/heads/main/logo/banner.png" />
 
 <h3 align="center">Secure Proxy for <a href="https://github.com/bbernhard/signal-cli-rest-api">Signal Messenger REST API</a></h3>
 
